@@ -13,9 +13,8 @@ st.button('View My Profile')
 if st.button('View My Profile'):
   if name.strip() and usn.strip():
     st.success("Profile Created Successfully")
-
-st.write("Student Name :",name)
-st.write("USN :",usn)
-st.write("Department :",dep)
-st.write("Year :",year)
+    st.write("Student Name :",name)
+    st.write("USN :",usn)
+    st.write("Department :",dep)
+    st.write("Year :",year)
 
