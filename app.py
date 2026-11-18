@@ -6,4 +6,5 @@ st.caption("Developed by Akshata Ganesh")
 
 st.text_input('Student Name',' ')
 st.text_input('USN/RollNumber',' ')
+st.selectbox('Department',['CSE','AI','ISE','EC','EEE','Cyber'])
 
