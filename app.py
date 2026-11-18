@@ -9,7 +9,7 @@ name=st.text_input('Student Name',' ')
 usn=st.text_input('USN/RollNumber',' ')
 dep=st.selectbox('Department',['CSE','AI','ISE','EC','EEE','Cyber'])
 year=st.radio('Current Year',['1st year','2nd year','3rd year','4th year'])
-st.button('View My Profile')
+
 if st.button('View My Profile'):
   if name.strip() and usn.strip():
     st.success("Profile Created Successfully")
